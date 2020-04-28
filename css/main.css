@@ -1,0 +1,154 @@
+body {
+	font-size: 15px;
+	margin: 0;
+	padding: 0;
+	color: #fff;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 700;
+}
+
+p {
+	line-height: 1.6em;
+}
+
+header {
+	background: rgba(77,192,254,1);
+	background: -moz-linear-gradient(-45deg, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -webkit-gradient(left top, right bottom, color-stop(0%, rgba(77,192,254,1)), color-stop(100%, rgba(55,144,217,1)));
+	background: -webkit-linear-gradient(-45deg, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -o-linear-gradient(-45deg, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: -ms-linear-gradient(-45deg, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	background: linear-gradient(135deg, rgba(77,192,254,1) 0%, rgba(55,144,217,1) 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dc0fe', endColorstr='#3790d9', GradientType=1 );
+	padding-top: 60px;
+}
+
+.container {
+	width: 1170px;
+	margin: 0 auto;
+}
+
+.title {
+	font-size: 37px;
+	
+}
+
+.title span {
+	font-size: 59px;
+}
+
+.offer {
+	margin-top: 140px;
+	width: 570px;
+}
+
+.intro {
+	margin-top: 50px;
+	width: 400px;
+}
+.wrapper {
+	display: flex;
+	justify-content: space-between;
+}
+
+.btn {
+	display: block;
+	width: 221px;
+	font-family: 'Montserrat', sans-serif;
+	background: #ffd429;
+	text-decoration: none;
+	text-align: center;
+	color: #2e2a1b;
+	padding: 20px 0;
+	margin-top: 44px;
+}
+
+.btn:hover {
+	background: #d7b427;
+	transition: 0.5s ease;
+}
+.desktop {
+	margin-top: 60px;
+	margin-right: -41px;
+	padding-bottom: 70px;
+}
+
+.section-title {
+	font-size: 30px;
+	text-align: center;
+}
+
+.black {
+	color: #201b2d;
+	padding-top: 100px;
+}
+
+.future-title {
+	font-size: 19px;
+}
+
+.future {
+	width: 300px;
+	text-align: center;
+
+}
+
+.icon-wrapper {
+	display: block;
+	width: 70px;
+	height: 70px;
+	margin: 0 auto;
+}
+.icon {
+	display: block;
+	margin: 0 auto;
+}
+
+.futurs {
+	display: flex;
+	justify-content: space-between;
+	padding-top: 70px;
+	padding-bottom: 120px;
+}
+
+.feedback {
+	background: #ecf3f8;
+	padding-bottom: 105px;
+}
+
+input {
+	display: block;
+	margin: 0 auto;
+	width: 340px;
+	height: 44px;
+	padding-left: 30px;
+	font-family: 'Ubuntu', sans-serif;
+	font-weight: 400;
+	margin-top: 15px;
+	color: #9f9ea2;
+}
+
+.bottom {
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.first-input {
+	margin-top: 60px;
+}
+
+footer {
+	background: #164d7a;
+	padding: 60px 0;
+}
+.credits {
+	text-align: center;
+	font-size: 14px;
+	font-family: 'Open Sans', sans-serif;
+	margin: 0;
+}
